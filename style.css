@@ -122,9 +122,64 @@ main{
     text-align: center;
     padding: 20px;
     
-    
    
 }
+
+
+/* features  section */
+.features{
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+    ;
+    
+}
+.section-title{
+    font-size: 35px;
+    margin-bottom: 20px;
+    
+}
+.features-contant{
+    width: 580px;
+}
+.card-one{
+    width: 100%;border: 1px solid rgb(243, 235, 235);
+    height: 170px;
+    padding: 15px;
+    margin-top: 30px;
+    
+    box-shadow: 5px 5px 10px rgba(219, 210, 210, 0.5);
+
+}
+.features-contant p{
+    padding: 10px;
+}
+.features .section-title{
+   border-left: 5px solid #f91616;
+   padding-left: 20px;
+}
+.features-image img{
+    width: 100%;
+}
+.text-btn{
+    background-color: #f91616;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    width: 342px;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+   
+}
+.text-btn .text-box{
+   margin-bottom: 10px;
+    font-size: 50px;
+
+}
+
 .facts-card-container{
     margin-top: 50px;
     display: flex;
@@ -172,19 +227,25 @@ main{
     
     display: flex;justify-content: space-evenly;
     padding-bottom: 50px;
+    align-items: center;
+    gap: 20px
 }
 .sponsor-container img{
-    color: gray;
+   width: 165px;
 }
+
 footer{
     width: 1440px;
     text-align: center;
     background-color: #FFF4E7;
     padding: 15px;
-    margin: 0 auto;
+    margin: 0 auto;margin-top: 20px;
+    margin-bottom: 100px;
 }
 
-
+footer h2{
+    font-size: 20px;
+}
 
 
 /*  respnsive*/
